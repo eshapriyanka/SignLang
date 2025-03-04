@@ -40,7 +40,7 @@ graphql
 1. Install Dependencies
   Ensure you have Python installed, then run:
   pip install pyaudio speechrecognition easygui matplotlib pillow
-2. Run the Application
+2. Run the Application,
   python main.py
 3. Use the Interface
   Click "Live Voice" to start capturing speech.
