@@ -95,13 +95,13 @@ def func():
                                     root = tk.Tk()
                                     lbl = ImageLabel(root)
                                     lbl.pack()
-                                    lbl.load(r'ISL_Gifs/{0}.gif'.format(a.lower()))
+                                    lbl.load(r'Animations/{0}.gif'.format(a.lower()))
                                     root.mainloop()
                                 else:
                                     for i in range(len(a)):
                                                     if(a[i] in arr):
                                             
-                                                            ImageAddress = 'letters/'+a[i]+'.jpg'
+                                                            ImageAddress = 'Alphabets/'+a[i]+'.jpg'
                                                             ImageItself = Image.open(ImageAddress)
                                                             ImageNumpyFormat = np.asarray(ImageItself)
                                                             plt.imshow(ImageNumpyFormat)
