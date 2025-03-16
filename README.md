@@ -46,3 +46,10 @@ graphql
   Click "Live Voice" to start capturing speech.
   View the translated Indian Sign Language visuals.
   Say "bye" or "goodbye" to exit the application.
+
+
+### OR ###
+1. Open index.html and run
+2. Either Type the input text or use Audio input and record use voice using microphone
+3. Click on translate.
+4. The required animation of sign language is displayed as output.
